@@ -1,0 +1,95 @@
+
+
+article, aside, div,nav, section{
+	display:block;
+	position: relative;
+	
+}
+
+
+body,html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: rgb(206,220,231);
+    background: linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C */
+    background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */.
+    font-family:Verdana, Arial, Helvetica, sans-serif;    
+    font-size:16px;
+   
+}
+
+div#principal{
+    background-color:#FFFFFF;
+    
+    background: rgb(245,246,246); /* Old browsers */
+    background: linear-gradient(top, rgba(245,246,246,1) 0%,
+									rgba(219,220,226,1) 21%,
+									rgba(184,186,198,1) 49%,
+									rgba(221,223,227,1) 80%,
+									rgba(245,246,246,1) 100%); /* W3C */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,11) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(top, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6+ */
+
+    /*background-image:url(fondoElSol.jpg);  
+      background-position: center ;  
+      background-repeat: no-repeat;*/
+    
+    border: thin solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);/*all */
+    
+    height: 768px;
+    margin: 0 auto;
+    padding: 0px;
+	
+    width: 1024px;
+   
+}
+div#container{
+	
+    border-radius: 15px;
+    height: 690px;
+	margin: 0 auto;
+    top: 50px;
+    width: 940px;
+   
+}
+
+section#main{
+    border: 1px ridge #585858;
+    border-radius: 15px;
+    float: right;
+    height: 630px;
+    padding: 29px;
+    width:90%;
+
+}
+
+h1{
+color:red;
+width:550px;
+height:100px;
+position:relative;
+}
+
+#canvas{
+position:relative;
+top:-50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/
