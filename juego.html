@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Dungeon Maze</title>
+
+    <META HTTP-EQUIV="Content-Script-Type" CONTENT="text/javascript">
+    <meta name ="keywords" content="dungeon, maze " />
+    <meta name ="description" content = "juego con niveles"/>
+    <meta name ="author" content= "Ricardo Romero, Cindy Rengifo"/>
+    <meta name ="category" content= "Juegos"/>
+    <meta name ="rating" content= "         "/>
+    <meta name ="language" content= "Español"/>
+    <meta name ="robots" content= "all, follow, index"/>
+    <meta name ="copyright" content= "          "/>
+    <meta name ="generator" content= "          "/>
+   
+
+   <link rel="stylesheet" href="estilos.css" type="text/css" media="screen" />
+	
+	
+</head>
+
+<body>
+		<style type="text/css">
+        canvas {border: 5px solid blue;}
+        </style>    
+        
+
+
+	<div id="principal">
+
+        <div id="container">
+
+             <section id="main">
+				<h1>DUNGEON MAZE</h1>
+				<canvas id="canvas" width="700" height="350"></canvas>	
+			
+					<script>
+						function draw(){
+						var canvas = document.getElementById('canvas');
+						if (canvas.getContext){
+						var ctx = canvas.getContext('2d');
+
+							ctx.fillRect(25,25,100,100);
+							ctx.clearRect(45,45,60,60);
+							ctx.strokeRect(50,50,50,50);
+
+					}
+				}
+                
+			</section>
+		</div>
+			<div id="move">
+				<p>parte almacenamiento de datos</p>
+			</div>
+	</div>  
+<canvas id="canvas" width="600" height="450"></canvas>
+   
+
+                    
+</body>
+
+</html>
